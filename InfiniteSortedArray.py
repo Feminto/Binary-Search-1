@@ -5,6 +5,11 @@
 #class ArrayReader:
 #    def get(self, index: int) -> int:
 
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
+# Did this code successfully run on Leetcode: YES
+# Any problem you faced while coding this: NO
+
 class Solution:
     def search(self, reader: 'ArrayReader', target: int) -> int:
         if reader == None:

@@ -1,5 +1,11 @@
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
+# Did this code successfully run on Leetcode: YES
+# Any problem you faced while coding this: NO
+
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
+        
         if nums == None or len(nums) == 0:
             return -1
 
